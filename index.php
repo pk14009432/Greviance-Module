@@ -44,21 +44,7 @@
                 </ul></li>
             </ul>
             </div>
-            </div>
-
-
-
-
-
-            <section id="About us" class="">About us</section>
-            <section class="section2">Contact us</section>
-            <section class="section3">FAQ</section>
-            
-            
-            
-            
-            
-            
+            </div>            
             
             <div class="content_part" style="background-color: rgba(255,255,255,0.7)">
                 <div class="home_img">
