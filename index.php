@@ -44,27 +44,36 @@
             <div class="content_part" style="background-color: rgba(255,255,255,0.7)">
                 <div class="home_img">
                     <div class="slideshow-container">
+
 <div class="mySlides fade">
   <img src="images/dummy12345.svg" style="width:100%">
 </div>
+
 <div class="mySlides fade">
   <img src="images/dummy1234.svg" style="width:100%">
 </div>
+
 <div class="mySlides fade">
   <img src="images/dummy123.svg" style="width:100%">
 </div>
+
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
+
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -369,6 +378,7 @@ Website:: www.grievance_system.com Tele fax : 6543210
 <script>
 var coll = document.getElementsByClassName("faq_rw");
 var i;
+
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active1");
