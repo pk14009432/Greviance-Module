@@ -1,4 +1,4 @@
-<?php
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -26,65 +26,45 @@
                 </div>
                 <div class="header2">
                     <ul id="nav">
-                        <li><a href="#" class="">Home</a></li>
-                        <li><a class="active" href="#About us">About us</a></li>
-                        <li><a href="#" class="">CMS</a>
-			   <ul>
-       				<li><a href='#'>Complain Managemnt System</a></li>
-   			   </ul></li>
-			
-                        <li><a href="#contact us" class="active">Contact us</a></li>
-                        <li><a href="#FAQ" class="active">FAQ</a></li>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#" class="">About us</a></li>
+                        <li title="Complain Management System"><a href="complain.php" class="">CMS</a>
+			   
+			   </li>
+                        <li><a href="#" class="">Contact us</a></li>
+                        <li><a href="#" class="">FAQ</a></li>
                         <li><a href="#" class="">Account</a>
-
-                <ul>
-                    <li><a href='#'>Sign up</a></li>
-                    <li><a href='#'>Sign in</a></li>
-                    <li><a href="#">Logout</a></li>
-                </ul></li>
-            </ul>
+                        <ul>
+                            <li> <a href="Login.php" class="">Login</a></li>
+                            <li><a href="Login.php" class="">LogOut</a></li>
+                        </ul></li>
+                    </ul>
+                </div>
             </div>
-            </div>            
-            
             <div class="content_part" style="background-color: rgba(255,255,255,0.7)">
                 <div class="home_img">
                     <div class="slideshow-container">
-
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
   <img src="images/dummy12345.svg" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
-
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
   <img src="images/dummy1234.svg" style="width:100%">
-  <div class="text">Caption Two</div>
 </div>
-
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
   <img src="images/dummy123.svg" style="width:100%">
-  <div class="text">Caption Three</div>
 </div>
-
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 </div>
-
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -122,8 +102,6 @@ function showSlides(n) {
                     <section class="module parallax parallax-2">
                         <div class="bgtb">
                             <div class="round_hdng3 con1_rw">About Us</div>
-                            
-                            
                             <div class="whcon">
                                 Grievance systems are formal organizational procedures designed to address employee complaints. These employee complaints, hereafter referred to as grievances, can range from general disputes about organizational policies (e.g., disputes about interpreting the vacation policy), to specific disputes about how the employee was treated (e.g., conflict with coworkers), to disputes that have legal implications (e.g., racial discrimination).Grievance systems vary by organization. However, grievance systems typically have several (four to five) hierarchical steps that are used to address conflicts in the organization.
                             </div>
@@ -391,7 +369,6 @@ Website:: www.grievance_system.com Tele fax : 6543210
 <script>
 var coll = document.getElementsByClassName("faq_rw");
 var i;
-
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active1");
@@ -406,4 +383,3 @@ for (i = 0; i < coll.length; i++) {
 </script>
     </body>
 </html>
-?>
